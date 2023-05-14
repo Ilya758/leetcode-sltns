@@ -5,7 +5,6 @@ class Solution:
         m, n = len(matrix), len(matrix[0])
         left = 0
         right = m * n - 1
-        mid = 0
 
         while left <= right:
             mid = (left + right) // 2
