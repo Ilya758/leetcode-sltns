@@ -8,9 +8,9 @@ class Solution:
         ans = []
         
         for i in range(len(nums)):
-            before = nums[i] * i - prefix[i]
-            after = - (prefix[i - 1] if i else 0) + prefix[n - 1] - nums[i] * (n - i - 1)
-            ans.append(before + after)
+            left = nums[i] * (i + 1) - prefix[i]
+            right = prefix[-1] - prefix[i] - nums[i] * (n - i - 1)
+            ans.append(left + right)
 
         return ans 
     
