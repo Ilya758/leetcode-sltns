@@ -1,0 +1,9 @@
+{
+red: apple, cherry
+yellow: apple, banana
+brown: banana
+black: grapes
+green: grapes
+orange: mango
+lime: pears
+}
